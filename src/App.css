@@ -1,0 +1,62 @@
+/*
+gold color: #ffd700
+*/
+
+.App {
+  text-align: center;
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-links {
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  padding: 24px 24px 0 24px;
+}
+
+.header-links li {
+  display: inline-block;
+  padding: 0 8px;
+  text-transform: uppercase;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  color: #ffd700;
+}
+
+.App-intro,
+.header-links {
+  background-color: rgba(34, 34, 34, 0.4);
+  color: white;
+}
+
+.App-intro {
+  padding: 20px;
+  height: 75vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 240px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

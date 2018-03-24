@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 // service worker
@@ -10,5 +10,18 @@ import Home from "./pages/Home/";
 // styles
 import "./index.css";
 
-ReactDOM.render(<Home />, document.getElementById("root"));
+// translations
+import locale from "./locale/";
+
+class App extends Component {
+  state = {
+    locale: "en"
+  };
+
+  render() {
+    return <Home t={locale[this.state.locale]} />;
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();

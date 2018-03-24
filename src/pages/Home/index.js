@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./logo.png";
-import "./App.css";
+import "./Home.css";
 
 class App extends Component {
   render() {
@@ -27,7 +27,7 @@ class App extends Component {
           <div className="App-intro-title-container">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">
-              Welcome to the Won Buddhist Temple of Richmond
+              Welcome to the Won-Buddhism Temple of Richmond
             </h1>
           </div>
         </div>

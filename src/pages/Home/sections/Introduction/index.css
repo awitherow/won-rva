@@ -1,7 +1,3 @@
-/*
-gold color: #ffd700
-*/
-
 .Home-top {
   text-align: center;
   background: url(background.jpg) no-repeat center center fixed;
@@ -61,41 +57,4 @@ gold color: #ffd700
 
 .Home-intro {
   font-size: large;
-}
-
-.Home-info {
-  max-width: 1024px;
-  margin: 24px auto;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-
-.Home-info-programs,
-.Home-info-upcoming {
-  padding: 0 24px;
-}
-
-.Home-info-items {
-  margin-bottom: 24px;
-}
-
-.Home-info h3 {
-  font-weight: 400;
-}
-
-.Home-info-item h4 {
-  font-weight: 400;
-  margin-bottom: 0;
-}
-
-.Home-info-item p {
-  margin-top: 8px;
-}
-
-footer {
-  background: #222;
-  text-align: center;
-  color: white;
-  padding: 64px;
 }

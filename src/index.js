@@ -11,7 +11,7 @@ import Home from "./pages/Home/";
 import "./index.css";
 
 // translations
-import locale from "./locale/";
+import t from "./locale/";
 
 class App extends Component {
   state = {
@@ -19,7 +19,8 @@ class App extends Component {
   };
 
   render() {
-    return <Home t={locale[this.state.locale]} />;
+    const { locale } = this.state;
+    return <Home t={t[locale]} />;
   }
 }
 

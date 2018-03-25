@@ -2,7 +2,7 @@
 gold color: #ffd700
 */
 
-.App {
+.Home-top {
   text-align: center;
   background: url(background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -26,20 +26,16 @@ gold color: #ffd700
 
 .header-links a {
   color: white;
-  text-decoration: none;
+  font-weight: 300;
 }
 
-.header-links a:hover {
-  color: #ffd700;
-}
-
-.App-intro,
+.Home-intro,
 .header-links {
   background-color: rgba(34, 34, 34, 0.4);
   color: white;
 }
 
-.App-intro {
+.Home-intro {
   padding: 20px;
   height: 75vh;
 
@@ -49,14 +45,57 @@ gold color: #ffd700
   flex-direction: column;
 }
 
-.App-logo {
+.Home-logo {
   height: 240px;
 }
 
-.App-title {
+.Home-title {
   font-size: 1.5em;
+  margin-bottom: 0;
 }
 
-.App-intro {
+.Home-subtitle {
+  font-size: 1em;
+  margin-top: 0;
+}
+
+.Home-intro {
   font-size: large;
+}
+
+.Home-info {
+  max-width: 1024px;
+  margin: 24px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.Home-info-programs,
+.Home-info-upcoming {
+  padding: 0 24px;
+}
+
+.Home-info-items {
+  margin-bottom: 24px;
+}
+
+.Home-info h3 {
+  font-weight: 400;
+}
+
+.Home-info-item h4 {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.Home-info-item p {
+  margin-top: 8px;
+}
+
+footer {
+  background: #222;
+  text-align: center;
+  color: white;
+  padding: 64px;
 }

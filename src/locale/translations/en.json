@@ -1,11 +1,44 @@
 {
   "header": {
     "home": "Home",
-    "ongoing": "Ongoing",
-    "upcoming": "Upcoming",
-    "contact": "Contact"
+    "activities": "Activities",
+    "contact": "Contact",
+    "about": "About"
   },
   "intro": {
-    "heading": "Welcome to the Won-Buddhism Temple of Richmond"
+    "title": "Won-Buddhism of Richmond",
+    "subtitle":
+      "With this Great Opening of Matter, let there be a Great Opening of Spirit."
+  },
+  "info": {
+    "programs": {
+      "title": "Ongoing Programs",
+      "items": [
+        {
+          "day": "Monday",
+          "title": "Tai Chi at the Mechanicsville Library",
+          "description":
+            "Tai Chi is meditation in motion. Learn to master the powers of yin and yang to bring stability, health and vitality into your movements and mind."
+        },
+        {
+          "day": "Tuesday",
+          "title": "Mindfulness Meditation",
+          "description":
+            "Mindfulness Meditation practice helps ease stress, improve memory, and all sorts of other amazing things that I am writing to fill space."
+        }
+      ]
+    },
+    "upcoming": {
+      "title": "Upcoming Events",
+      "items": [
+        {
+          "date": "1.04.2018",
+          "title": "2nd Annual Youngsan Stay in Korea",
+          "description":
+            "Enjoy a month long retreat in the peaceful and sacred space of Youngsan, protected by the busy city life, intended to allow participants to quiet the mind and open the heart.",
+          "registration": "rva@wonbuddhism.org"
+        }
+      ]
+    }
   }
 }

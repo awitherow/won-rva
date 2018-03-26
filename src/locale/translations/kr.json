@@ -16,12 +16,14 @@
       "items": [
         {
           "day": "Monday",
+          "times": "6:00pm - 7:30pm",
           "title": "Tai Chi at the Mechanicsville Library",
           "description":
             "Tai Chi is meditation in motion. Learn to master the powers of yin and yang to bring stability, health and vitality into your movements and mind."
         },
         {
           "day": "Tuesday",
+          "times": "10:00am - 11:20am",
           "title": "Mindfulness Meditation",
           "description":
             "Mindfulness Meditation practice helps ease stress, improve memory, and all sorts of other amazing things that I am writing to fill space."

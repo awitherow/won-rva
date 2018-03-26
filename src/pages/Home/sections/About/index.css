@@ -11,3 +11,9 @@
   max-width: 575px;
   padding-right: 24px;
 }
+
+@media (max-width: 768px) {
+  .Home-about-info-text {
+    padding: 24px;
+  }
+}

@@ -11,7 +11,8 @@ export default function Carousel() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true
+    autoplay: true,
+    adaptiveHeight: true
   };
 
   return (

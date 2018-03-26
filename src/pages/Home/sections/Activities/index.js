@@ -40,7 +40,9 @@ export default function Activities({ info }) {
               </div>
             ))}
         </div>
-        <a href="">See All Future Events</a>
+        <a href="" className="button-link">
+          See All Future Events
+        </a>
       </div>
     </div>
   );

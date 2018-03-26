@@ -48,20 +48,20 @@ export default function About({ about }) {
         <div className="Home-about-info-text">
           <h3>{about.title}</h3>
           {about.about_paragraphs.map((p, i) => <p key={i}>{p}</p>)}
-          <p className="link-button-container">
+          <p className="button-link-container">
             <a
               href="mailto:richmond-va@wonbuddhism.org?Interest in Won-Buddhism Richmond Temple"
-              className="link-button"
+              className="button-link"
             >
               Email Us Today
             </a>
           </p>
           <h3>{about.subtitle}</h3>
           {about.about_won_paragraphs.map((p, i) => <p key={i}>{p}</p>)}
-          <p className="link-button-container">
+          <p className="button-link-container">
             <a
               href="http://www.wonbuddhism.org/#/what-is-won-buddhism"
-              className="link-button"
+              className="button-link"
             >
               Learn More
             </a>

@@ -68,11 +68,11 @@ h4 {
   border: 0;
 }
 
-.link-button-container {
+.button-link-container {
   margin: 24px 0 32px 0;
 }
 
-.link-button {
+.button-link {
   background: #ffd700;
   color: black;
   padding: 8px 16px;
@@ -80,7 +80,7 @@ h4 {
   margin: 12px 0;
 }
 
-.link-button:hover {
+.button-link:hover {
   color: #ffd700;
   background: black;
 }

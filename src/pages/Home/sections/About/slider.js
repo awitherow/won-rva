@@ -1,6 +1,7 @@
 import React from "react";
 
 import Slider from "react-slick";
+import "./slider.css";
 
 export default function Carousel() {
   const settings = {
@@ -8,28 +9,28 @@ export default function Carousel() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true
   };
 
   return (
-    <div>
-      <Slider {...settings}>
-        <img
-          alt="stacked zen stones"
-          className="slide-image"
-          src={require("./1.jpg")}
-        />
-        <img
-          alt="more stacked zen stones"
-          className="slide-image"
-          src={require("./2.jpg")}
-        />
-        <img
-          alt="even more stacked zen stones"
-          className="slide-image"
-          src={require("./3.jpg")}
-        />
-      </Slider>
-    </div>
+    <Slider {...settings}>
+      <img
+        alt="stacked zen stones"
+        className="slide-image"
+        src={require("./1.jpg")}
+      />
+      <img
+        alt="more stacked zen stones"
+        className="slide-image"
+        src={require("./2.jpg")}
+      />
+      <img
+        alt="even more stacked zen stones"
+        className="slide-image"
+        src={require("./3.jpg")}
+      />
+    </Slider>
   );
 }

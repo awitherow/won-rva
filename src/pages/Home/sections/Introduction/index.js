@@ -15,10 +15,7 @@ export default function Introduction({ header, intro }) {
           <a href="#activities">{header.activities}</a>
         </li>
         <li>
-          <a href="">{header.about}</a>
-        </li>
-        <li>
-          <a href="">{header.contact}</a>
+          <a href="#about">{header.about}</a>
         </li>
       </ul>
       <div className="Home-intro">

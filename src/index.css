@@ -27,3 +27,44 @@ a {
 a:hover {
   color: #ffd700;
 }
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+.inner-wrapper {
+  max-width: 1024px;
+  margin: 24px auto;
+}
+
+.inner-wrapper.narrow {
+  max-width: 768px;
+}
+
+.flex-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.map-iframe {
+  border: 0;
+}
+
+.link-button-container {
+  margin: 24px 0 32px 0;
+}
+
+.link-button {
+  background: #ffd700;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin: 12px 0;
+}
+
+.link-button:hover {
+  color: #ffd700;
+  background: black;
+}

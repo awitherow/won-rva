@@ -8,7 +8,7 @@
   "intro": {
     "title": "Won-Buddhism of Richmond",
     "subtitle":
-      "With this Great Opening of Matter, let there be a Great Opening of Spirit."
+      "With this Great Opening of Material, let there be a Great Opening of Spirit."
   },
   "info": {
     "programs": {
@@ -40,5 +40,18 @@
         }
       ]
     }
+  },
+  "about": {
+    "title": "About Our Temple",
+    "about_paragraphs": [
+      "Welcome to the Won Buddhism Temple of Richmond. Won Buddhism of Richmond has served since 1999, as a spiritual home for Richmond. It is a place of peace and restoration, and a place to learn and practice Won Buddhism and meditation. We welcome everyone who wants to cultivate inner peace, joy and wisdom.",
+      "No experience is necessary. There are no fees for our programs, however, the temple is fully self-supporting and any level of donations are much appreciated. Please join us!"
+    ],
+    "subtitle": "About Won-Buddhism",
+    "about_won_paragraphs": [
+      "Won-Buddhism, a reformed and modernized Buddhism, teaches us how to use our minds. To use the mind well, we should first know what the mind is like and how it works. Based on that understanding, we should cultivate and use it skillfully in everyday situations.",
+      "Whether a one-hundred dollar bill is crisp or crumpled, it has the same value. Our original mind is pure, bright, and wholesome, lacking nothing.",
+      "Everyone has a mind and is constantly using it."
+    ]
   }
 }

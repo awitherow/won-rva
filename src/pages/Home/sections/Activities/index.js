@@ -4,7 +4,7 @@ import "./index.css";
 
 export default function Activities({ info }) {
   return (
-    <div id="activities" className="Home-info">
+    <div id="activities" className="Home-info inner-wrapper flex-info">
       <div className="Home-info-programs">
         <h3>{info.programs.title}</h3>
         <div className="Home-info-items">

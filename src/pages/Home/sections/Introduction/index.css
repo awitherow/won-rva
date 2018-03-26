@@ -1,5 +1,4 @@
 .Home-top {
-  text-align: center;
   background: url(background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -35,6 +34,8 @@
   padding: 20px;
   height: 75vh;
 
+  font-size: large;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,8 +54,4 @@
 .Home-subtitle {
   font-size: 1em;
   margin-top: 0;
-}
-
-.Home-intro {
-  font-size: large;
 }

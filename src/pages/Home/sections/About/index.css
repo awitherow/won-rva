@@ -1,0 +1,13 @@
+.Home-about-info {
+  padding: 48px 0;
+}
+
+.Home-about-info h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Home-about-info-text {
+  max-width: 575px;
+  padding-right: 24px;
+}

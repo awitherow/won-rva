@@ -43,6 +43,10 @@ h4 {
   font-weight: 400;
 }
 
+button:focus {
+  outline: 0;
+}
+
 .inner-wrapper {
   max-width: 1024px;
   margin: 48px auto;
@@ -66,6 +70,11 @@ h4 {
 
 .map-iframe {
   border: 0;
+}
+
+.no-button {
+  border: none;
+  background: transparent;
 }
 
 .button-link-container {

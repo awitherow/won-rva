@@ -8,11 +8,16 @@ import Footer from "./sections/Footer/";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function Home({ t }) {
+export default function Home({ t, locale, changeState }) {
   const { header, intro, info, about } = t;
   return (
     <div id="home" className="Home">
-      <Introduction header={header} intro={intro} />
+      <Introduction
+        locale={locale}
+        header={header}
+        intro={intro}
+        changeState={changeState}
+      />
       <Activities info={info} />
       <About about={about} />
       <Footer />

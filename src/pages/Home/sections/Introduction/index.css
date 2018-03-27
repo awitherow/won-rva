@@ -27,6 +27,12 @@
   text-transform: uppercase;
 }
 
+.header-links .flag {
+  width: 30px;
+  position: relative;
+  top: 4px;
+}
+
 .header-links a {
   color: white;
   font-weight: 300;

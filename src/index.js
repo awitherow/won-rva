@@ -18,9 +18,14 @@ class App extends Component {
     locale: "en"
   };
 
+  changeState = (key, value) => this.setState({ [key]: value });
+
   render() {
     const { locale } = this.state;
-    return <Home t={t[locale]} />;
+
+    return (
+      <Home t={t[locale]} locale={locale} changeState={this.changeState} />
+    );
   }
 }
 

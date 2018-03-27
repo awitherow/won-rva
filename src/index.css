@@ -62,10 +62,31 @@ button:focus {
   justify-content: space-between;
 }
 
+.button-link-container-flex {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 768px) {
   .flex-info {
     flex-direction: column;
   }
+
+  .inner-wrapper {
+    margin: 24px auto;
+  }
+
+  .button-link-container-flex {
+    max-width: 100%;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.button-link-container-flex a {
+  margin: 8px;
 }
 
 .map-iframe {
@@ -77,16 +98,16 @@ button:focus {
   background: transparent;
 }
 
-.button-link-container {
-  margin: 24px 0 32px 0;
-}
-
 .button-link {
   background: #ffd700;
   color: black;
   padding: 8px 16px;
   border-radius: 4px;
   margin: 12px 0;
+}
+
+.button-link.margin-left {
+  margin-left: 12px;
 }
 
 .button-link:hover {

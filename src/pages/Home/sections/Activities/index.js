@@ -40,9 +40,11 @@ export default function Activities({ info }) {
               </div>
             ))}
         </div>
-        <a href="" className="button-link">
-          See All Future Events
-        </a>
+        <p>
+          <a href="" className="button-link">
+            See All Future Events
+          </a>
+        </p>
       </div>
     </div>
   );

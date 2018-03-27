@@ -28,7 +28,7 @@ export default function Introduction({ header, intro, locale, changeState }) {
               <img
                 className="flag"
                 src={
-                  locale === "en" ? require("./usa.png") : require("./sk.jpg")
+                  locale === "en" ? require("./usa.png") : require("./sk.png")
                 }
                 alt={`Flag for the country of ${
                   locale === "en" ? "America" : "South Korea"

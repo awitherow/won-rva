@@ -5,15 +5,79 @@
 
 .Home-about-info-text {
   max-width: 575px;
-  padding-right: 24px;
+  padding-right: 32px;
+}
+
+@media (max-width: 1000px) {
+  .Home-about-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Home-about-info-text {
+    max-width: 768px;
+    text-align: justify;
+    padding-right: 0;
+  }
+
+  .Home-about-info-text,
+  .slides-container {
+    margin: 24px auto;
+  }
+}
+
+.slides-container {
+  max-width: 500px;
+  width: 100%;
+}
+
+.gold-background,
+.light-grey-background {
+  padding: 24px;
+}
+
+.light-grey-background {
+  background: #fafafa;
+}
+
+.gold-background {
+  background: #ffd700;
+}
+
+.gold-background .button-link {
+  background: #222;
+  color: #ffd700;
+}
+
+.gold-background .button-link:hover {
+  color: #222;
+  background: white;
+}
+
+.il-won-image {
+  max-width: 400px;
+  padding-left: 42px;
+}
+
+@media (max-width: 1024px) {
+  .light-grey-background {
+    text-align: justify;
+  }
+
+  .il-won-image {
+    padding-left: 0;
+    margin: 24px auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .il-won-image {
+    max-width: 80vw;
+  }
 }
 
 @media (max-width: 768px) {
   .Home-about-info {
     margin-bottom: 0 !important;
-  }
-
-  .Home-about-info-text {
-    padding: 24px;
   }
 }

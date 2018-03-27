@@ -18,7 +18,21 @@ class App extends Component {
     locale: "en"
   };
 
-  changeState = (key, value) => this.setState({ [key]: value });
+  componentWillMount() {
+    const localStorageState = JSON.parse(
+      window.localStorage.getItem("won-rva")
+    );
+
+    if (typeof localStorageState === "object") {
+      this.setState({ ...localStorageState });
+    }
+  }
+
+  changeState = (key, value) => {
+    this.setState({ [key]: value }, () =>
+      window.localStorage.setItem("won-rva", JSON.stringify(this.state))
+    );
+  };
 
   render() {
     const { locale } = this.state;

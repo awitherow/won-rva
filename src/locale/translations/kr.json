@@ -6,7 +6,7 @@
     "about": "About"
   },
   "intro": {
-    "title": "불교를 이기다 Richmond",
+    "title": "Won-Buddhism of Richmond",
     "subtitle":
       "With this Great Opening of Material, let there be a Great Opening of Spirit."
   },
@@ -41,6 +41,16 @@
           "registration": "rva@wonbuddhism.org"
         }
       ]
+    },
+    "button_future": "See All Future Events",
+    "button_more_info": "More Info by Email",
+    "call_option": "or call",
+    "donations": {
+      "intro":
+        "There are no fees for our programs, however, the temple is fully self-supporting and any level of donations are much appreciated!",
+      "paypal_button": "Donate via Paypal",
+      "check":
+        "Or make a check payable to Won Buddhism of Richmond. This can be sent to our address at Won Buddhism of Richmond 8266 Walnut Grove Rd. Mechanicsville, VA 23111."
     }
   },
   "about": {

@@ -3,6 +3,10 @@ footer {
   background: #222;
   text-align: center;
   color: white;
-  padding: 64px;
+  padding: 24px 0;
   font-size: small;
+}
+
+footer p {
+  text-align: center !important;
 }

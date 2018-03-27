@@ -28,6 +28,10 @@ p {
   font-weight: 300;
 }
 
+p {
+  text-align: justify;
+}
+
 a {
   font-weight: 400;
   color: crimson;
@@ -45,6 +49,24 @@ h4 {
 
 button:focus {
   outline: 0;
+}
+
+.divider {
+  margin: 24px auto;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.emoji {
+  width: 24px;
+  position: relative;
+  top: 4px;
 }
 
 .inner-wrapper {

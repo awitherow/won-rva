@@ -7,6 +7,10 @@
   margin-bottom: 24px;
 }
 
+.Home-info-item {
+  max-width: 728px;
+}
+
 .Home-info-item h4 {
   margin-bottom: 0;
 }

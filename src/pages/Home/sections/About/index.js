@@ -34,15 +34,6 @@ export default function About({ about }) {
           <div className="slides-container">
             <Slider />
           </div>
-          {/* <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3159.815714206018!2d-77.29837195348834!3d37.63002244590334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b12207d0818e81%3A0xb7b75e251d8e2779!2s8266+Walnut+Grove+Rd%2C+Mechanicsville%2C+VA+23111!5e0!3m2!1sen!2sus!4v1522089571911"
-          width={width <= 450 ? width : 450}
-          height={width <= 450 ? width : 450}
-          frameBorder="0"
-          allowFullScreen
-          title="Location of Won Buddhism RVA Temple"
-          className="map-iframe"
-        /> */}
         </div>
       </div>
 
